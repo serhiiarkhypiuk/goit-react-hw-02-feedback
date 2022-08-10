@@ -12,11 +12,9 @@ class App extends Component {
     bad: 0
   }
 
-  onLeaveFeedback = (event) => {
-    const name = event.target.name
-    console.log('clicked!')
+  onLeaveFeedback = key => {
     this.setState((prevState) => ({
-			[name]: prevState[name] + 1
+			[key]: prevState[key] + 1
 		}))
   }
   

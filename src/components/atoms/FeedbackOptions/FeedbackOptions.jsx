@@ -6,7 +6,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <StyledWrapper>
       {options.map((option) => (
-        <StyledButton type="button" key={option.index} name={option} onClick={onLeaveFeedback}>{option}</StyledButton>
+        <StyledButton type="button" key={option.index} name={option} onClick={() => onLeaveFeedback(option)}>{option}</StyledButton>
       ))}
     </StyledWrapper>
   )
