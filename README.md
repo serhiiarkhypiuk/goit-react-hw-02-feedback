@@ -23,7 +23,7 @@ state = {
 
 Інтерфейс може мати такий вигляд.
 
-component preview
+![step-1](https://user-images.githubusercontent.com/94649716/184612529-ac948551-47dd-4d74-aebf-e85d39a0e7ed.png)
 
 ## Крок 2
 
@@ -33,7 +33,7 @@ component preview
 допоміжні методи `countTotalFeedback()` і `countPositiveFeedbackPercentage()`,
 які підраховують ці значення, ґрунтуючись на даних у стані (обчислювані дані).
 
-component preview
+![step-2](https://user-images.githubusercontent.com/94649716/184612553-a0c80f51-80e4-44c0-8ae3-10e5dc6adf38.png)
 
 ## Крок 3
 
@@ -53,3 +53,5 @@ component preview
 Розшир функціонал застосунку таким чином, щоб блок статистики рендерився тільки
 після того, як було зібрано хоча б один відгук. Повідомлення про відсутність
 статистики винеси в компонент `<Notification message="There is no feedback">`.
+
+![preview](https://user-images.githubusercontent.com/94649716/184612566-f7996ad8-1193-45ca-822c-542a7663a7ce.gif)
